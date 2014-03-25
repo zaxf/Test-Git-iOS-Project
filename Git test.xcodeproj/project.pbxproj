@@ -21,6 +21,7 @@
 		C7BD2C7118E215DF00790A77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BD2C5318E215DF00790A77 /* UIKit.framework */; };
 		C7BD2C7918E215DF00790A77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7BD2C7718E215DF00790A77 /* InfoPlist.strings */; };
 		C7BD2C7B18E215DF00790A77 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD2C7A18E215DF00790A77 /* Git_testTests.m */; };
+		C7BD2C8618E21E4400790A77 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD2C8518E21E4400790A77 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7BD2C7618E215DF00790A77 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		C7BD2C7818E215DF00790A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7BD2C7A18E215DF00790A77 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		C7BD2C8418E21E4400790A77 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		C7BD2C8518E21E4400790A77 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				C7BD2C6518E215DF00790A77 /* CCViewController.m */,
 				C7BD2C6718E215DF00790A77 /* Images.xcassets */,
 				C7BD2C5618E215DF00790A77 /* Supporting Files */,
+				C7BD2C8418E21E4400790A77 /* CCTest.h */,
+				C7BD2C8518E21E4400790A77 /* CCTest.m */,
 			);
 			path = "Git test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7BD2C6018E215DF00790A77 /* CCAppDelegate.m in Sources */,
+				C7BD2C8618E21E4400790A77 /* CCTest.m in Sources */,
 				C7BD2C5C18E215DF00790A77 /* main.m in Sources */,
 				C7BD2C6618E215DF00790A77 /* CCViewController.m in Sources */,
 			);
